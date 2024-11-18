@@ -1,0 +1,243 @@
+/*Variáveis*/
+:root {
+    --verde: #3156a7;
+    --azul: #d89819;
+    --cinza-medio: #000000;
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza-claro: #ced4da;
+  }
+
+/*Geral*/
+*{
+    font-family: 'Lato', sans-serif;
+    color: var(--cinza-medio);
+}
+
+/*Menu*/
+
+.nav-link {
+    color: var(--cinza-medio);;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--verde);;
+}
+
+
+
+/*Slider*/
+.carousel-control-prev-icon{
+    background-color: rgba(0, 0, 0, .5) ;
+    padding: 2rem 1rem;
+}
+
+
+.carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, .5) ;
+    padding: 2rem 1rem;
+}
+
+.carousel-caption {
+    top: auto;
+    bottom: 4rem;
+    margin:0 auto;
+    background-color: rgba(0, 0, 0, .5) ;
+    width: 600px;
+}
+
+.carousel-caption h5, .carousel-caption p{
+    color: var(--branco);
+}
+
+.btn.btn-primary.azul{
+    background-color: var(--verde);;
+    border-color: var(--verde);;
+    border-radius: 4%;
+
+}
+
+.btn.btn-primary.azul:hover{
+    background-color: var(--azul);;
+    border-color: var(--azul);;
+    border-radius: 4%;
+}
+
+/*Cursos*/
+#cursos{
+    padding: 30px 30px;
+    background-color: var(--preto);;
+}
+
+#cursos h2{
+    text-align: center;
+    color:var(--branco);
+}
+
+#cursos h5{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#cursos p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.card.img{
+    border:1;
+    border-radius: 10%;
+}
+
+.btn.btn-primary.verde{
+    background-color: var(--verde);;
+    border-color: var(--verde);;
+    border-radius: 0;
+}
+
+.btn.btn-primary.verde:hover{
+    background-color: var(--azul);
+    border-color: var(--azul);
+}
+
+/*Institucional*/
+
+#institucional{
+    padding: 30px 30px;
+    color:var(--preto);;
+    
+}
+
+#institucional h2{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#institucional p{
+    font-size: large;
+}
+
+/*Notícias*/
+#noticias a{
+    color: var(--verde);;
+    text-decoration : none;
+}
+
+#noticias a:hover{
+    
+    color: var(--azul);;
+}
+
+#noticias img{
+    border-radius: 40%;
+}
+
+#noticias p, h3{
+    text-align: center;
+}
+
+#noticias p{
+    font-size: large;
+}
+
+#h4-professor{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/*Eventos*/
+#eventos{
+padding-top: 1rem;
+border : 1px solid var(--cinza-claro);;
+border-top: 8px solid var(--verde);;
+
+}
+
+#eventos a{
+    color: var(--verde);;
+    text-decoration : none;
+}
+
+#eventos a:hover{
+    color: var(--azul);;
+}
+
+
+#calendar{
+    size: 2rem;
+}
+
+.dia{  
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h4{
+    font-weight: 600;
+}
+
+h5{
+    font-weight: 600;
+}
+
+
+
+/*Entre em contato*/
+.borda-azul{
+    border-top: 7px solid var(--verde);;
+}
+
+#contato p, form{
+    font-size: larger;
+}
+
+#Redes-sociais a {
+    border: 2px solid var(--verde); 
+    border-radius: 10%; 
+    color: #007BFF; 
+    background-color: #ffffff; 
+    display: inline-block; 
+    text-align: center;
+    transition: all 0.4s ease; 
+}
+
+#Redes-sociais a:hover {
+    background-color: #d898198f; 
+    border-color: var(--verde); 
+    color: #ffffff;
+}
+
+#Redes-sociais i{
+    color: var(--verde);
+    font-size: 20px;
+}
+
+
+#botasso input{
+    border-radius: 7%;
+}
+
+#h4-contato{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/*Rodapé*/
+#rodape{
+    padding: 10px 10px;
+    background-color: var(--preto);;
+}
+
+footer p a {
+	margin: 5px 10px;
+	color:var(--branco);;
+}
+
+footer i{
+    color: var(--verde);
+}
